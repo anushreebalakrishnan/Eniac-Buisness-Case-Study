@@ -60,12 +60,3 @@ The analysis found that:
 - Jupyter Notebook
 
 ---
-
-## Repository Structure
-
-```
-├── data/              # Raw and cleaned datasets
-├── notebooks/         # Data cleaning and EDA
-├── images/            # Visualizations
-└── README.md
-```
