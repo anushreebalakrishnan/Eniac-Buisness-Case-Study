@@ -2,59 +2,53 @@
 
 ## Project Overview
 
-This project analyzes Eniac's e-commerce sales data to evaluate the effectiveness of its discount strategy. The objective was to clean and prepare raw sales data, perform exploratory data analysis (EDA), and uncover insights into pricing, discount behavior, product performance, and seasonal sales trends.
-
-The analysis provides data-driven recommendations to help optimize discount strategies while maintaining revenue growth.
+This project analyzes Eniac's e-commerce sales data to evaluate the effectiveness of its discount strategy. Using Python, the raw dataset was cleaned, validated, and analyzed to uncover insights into pricing, discounts, revenue, and seasonal sales trends.
 
 ---
 
 ## Objectives
 
-- Clean and validate raw e-commerce data
-- Improve overall data quality and consistency
-- Explore pricing and discount patterns
-- Analyze customer purchasing behavior
+- Clean and validate raw sales data
+- Perform Exploratory Data Analysis (EDA)
+- Analyze discount and pricing patterns
 - Identify seasonal sales trends
-- Provide business recommendations based on data insights
+- Provide data-driven business recommendations
 
 ---
 
 ## Data Cleaning
 
-The original dataset contained several data quality issues that required preprocessing before analysis, including:
+The dataset was prepared by:
 
-- Missing values
-- Duplicate records
-- Price inconsistencies
-- Data integrity validation
-- Standardization of product information
-- Data transformation and formatting
-
-These steps ensured the dataset was accurate, reliable, and ready for analysis.
+- Handling missing values
+- Removing duplicate records
+- Resolving price inconsistencies
+- Validating data quality
+- Standardizing product information
 
 ---
 
-## Exploratory Data Analysis (EDA)
-
-The analysis focused on:
+## Key Analysis
 
 - Product categorization
-- Price distribution across categories
-- Discount frequency and average discount percentage
-- Revenue generated across discount ranges
-- Seasonal sales trends (Black Friday, Christmas, etc.)
-- Customer purchasing patterns
-- Business insights and pricing recommendations
+- Revenue by discount range
+- Discount distribution
+- Basket size analysis
+- Category-wise performance
+- Seasonal sales trends
 
 ---
 
-## Key Insights
+## Business Outcome
 
-- Moderate discounts generated stronger revenue than deep discounts.
-- Higher discounts did not significantly increase basket size.
-- Mobile Devices achieved the highest revenue despite having relatively low discounts.
-- Seasonal promotions were effective without requiring excessive discounting.
-- Deep discounts should be reserved for inventory clearance rather than everyday pricing.
+The analysis found that:
+
+- **5–15% discounts** generated the strongest revenue performance.
+- **Deep discounts (35%+)** reduced revenue without increasing basket size.
+- **Mobile Devices** achieved the highest revenue with relatively low discounts.
+- Moderate seasonal discounts performed better than aggressive discounting.
+
+**Recommendation:** Maintain everyday discounts between **5–15%**, reserve **25%+ discounts** for inventory clearance, and avoid unnecessary discounts on high-performing products.
 
 ---
 
@@ -67,18 +61,11 @@ The analysis focused on:
 
 ---
 
-## Project Workflow
+## Repository Structure
 
-1. Data Collection
-2. Data Cleaning
-3. Data Quality Assessment
-4. Exploratory Data Analysis (EDA)
-5. Data Visualization
-6. Business Insights
-7. Strategic Recommendations
-
----
-
-## Business Outcome
-
-The analysis demonstrates that moderate discounts (5–15%) deliver the best balance between customer demand and revenue generation. The findings support a more targeted discount strategy that maximizes revenue while minimizing unnecessary price reductions.
+```
+├── data/              # Raw and cleaned datasets
+├── notebooks/         # Data cleaning and EDA
+├── images/            # Visualizations
+└── README.md
+```
